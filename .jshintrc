@@ -1,0 +1,23 @@
+{
+  "strict": true,
+  "browser": true,
+  "devel": true,
+  "bitwise": false,
+  "curly": true,
+  "eqeqeq": true,
+  "latedef": false,
+  "noarg": true,
+  "undef": true,
+  "unused": true,
+  "validthis": true,
+  "jasmine": true,
+  "globals": {
+    "$": false,
+    "WeupshMocks": false,
+    "moment": false,
+    "angular": false,
+    "inject": false,
+    "module": false,
+    "io": false
+  }
+}

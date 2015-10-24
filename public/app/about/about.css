@@ -1,0 +1,73 @@
+.v-center {
+    padding-top:10%;
+    font-size:70px;
+}
+
+.well {
+    border-color:transparent;
+}
+
+a.list-group-item.active,[class*='-info'] {
+    background-color: #168ccc;
+    color:#fff;
+}
+
+.chart-container {
+    padding-top: 50px;
+}
+
+#about-page {
+    height:100%;
+    background:center no-repeat fixed url('/assets/img/about/bg_suburb.jpg');
+    background-size: cover;
+}
+
+#about-page section {
+    padding-top:70px;
+    padding-bottom:50px;
+    min-height:calc(100% - 1px);
+}
+
+#about-page #section1 {
+    background-color: #168ccc;
+    color:#dedeff;
+}
+
+#about-page #section2 {
+    background-color: #e5e5ef;
+    color:#686868;
+}
+
+#about-page #section3 {
+    background-color: #168ccc;
+    color:#ddd;
+}
+
+#about-page #section4 {
+    background-color: #fff;
+    color:#444;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0 !important;
+}
+
+#about-page #section5,#section7,#section7 a {
+    color:#f5f5f5;
+}
+
+#about-page #section6 {
+    background-color: #168ccc;
+    color:#ddd;
+}
+
+#about-page #section6 a {
+    color:#ffffff;
+}
+
+#about-page #hero-bar {
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    padding-right: 0;
+}
