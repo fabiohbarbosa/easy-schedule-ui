@@ -70,7 +70,6 @@ a.list-group-item.active,[class*='-info'] {
 #about-page #section2 {
     background-color: #e5e5ef;
     color:#424242;
-    /*color:#686868;*/
 }
 
 #about-page #section3 {
@@ -120,4 +119,9 @@ a.list-group-item.active,[class*='-info'] {
     top: 0;
     z-index: 99;
     padding-right: 0;
+}
+
+#logo-heroku:hover,
+#logo-heroku:focus {
+    opacity: 0.6;
 }
