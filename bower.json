@@ -1,0 +1,32 @@
+{
+  "name": "easy-scheduler",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-animate": "~1.4.0",
+    "angular-bootstrap": "~0.13.3",
+    "angular-cookies": "~1.4.0",
+    "angular-filter": "~0.5.4",
+    "angular-mocks": "~1.4.6",
+    "angular-translate-loader-url": "~2.7.2",
+    "angular-sanitize": "~1.4.5",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.3.0",
+    "angular-ui-router": "~0.2.15",
+    "moment": "~2.10.6",
+    "angular-chart.js": "~0.8.5"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "angular": {
+      "main": [
+        "angular.min.js"
+      ]
+    }
+  }
+}
