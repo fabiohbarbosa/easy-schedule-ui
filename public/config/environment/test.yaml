@@ -1,0 +1,6 @@
+constant:
+  backend:
+    core:
+      url: http://localhost:4000
+    language:
+      url: http://localhost:4000
