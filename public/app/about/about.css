@@ -21,21 +21,16 @@ a.list-group-item.active,[class*='-info'] {
     border-color: #48c9b0;
 }
 
-.btn-green {
-    background-color: #1d9d74;
+.btn-gray {
+    background-color: #494949;
     color: #fff;
 }
 
-.btn-green:hover,
-.btn-green:focus {
+.btn-gray:hover,
+.btn-gray:focus {
     opacity: 0.8;
     color: #fff;
 }
-
-.btn-green:active {
-    border-color: #48c9b0;
-}
-
 
 .chart-container {
     padding-top: 50px;
