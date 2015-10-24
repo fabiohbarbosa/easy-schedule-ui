@@ -3,12 +3,13 @@
 }
 
 .navbar-trans {
-    background-color:#279ddd;
+    background-color:#000;
     color:#fff;
+    box-shadow: 3px 3px 5px rgba(50, 50, 50, .5);
 }
 
 .navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
-    background-color:#38afef;
+    background-color:#999999;
 }
 
 .navbar-trans a{

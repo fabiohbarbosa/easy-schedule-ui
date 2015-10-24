@@ -1,6 +1,11 @@
 .v-center {
-    padding-top:10%;
     font-size:70px;
+}
+
+@media (max-width: 560px) {
+    .v-center {
+        font-size: 50px;
+    }
 }
 
 .well {
@@ -8,18 +13,33 @@
 }
 
 a.list-group-item.active,[class*='-info'] {
-    background-color: #168ccc;
+    background-color: #1d9d74;
+    border-color: #1d9d74;
     color:#fff;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #48c9b0;
+    border-color: #48c9b0;
+}
+
+.btn-gray {
+    background-color: #494949;
+    color: #fff;
+}
+
+.btn-gray:hover,
+.btn-gray:focus {
+    opacity: 0.8;
+    color: #fff;
 }
 
 .chart-container {
     padding-top: 50px;
-}
-
-#about-page {
-    height:100%;
-    background:center no-repeat fixed url('/assets/img/about/bg_suburb.jpg');
-    background-size: cover;
 }
 
 #about-page section {
@@ -29,26 +49,38 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #about-page #section1 {
-    background-color: #168ccc;
-    color:#dedeff;
+    margin: 100px;
+    background-color: #1d9d74;
+    color:#fff;
 }
+
+@media (max-width: 465px) {
+    #about-page #section1 {
+        margin: 50px;
+    }
+}
+
+@media (max-width: 355px) {
+    #about-page #section1 {
+        margin: 20px;
+    }
+}
+
 
 #about-page #section2 {
     background-color: #e5e5ef;
-    color:#686868;
+    color:#424242;
+    /*color:#686868;*/
 }
 
 #about-page #section3 {
-    background-color: #168ccc;
-    color:#ddd;
+    background-color: #1d9d74;
+    color:#fff;
 }
 
 #about-page #section4 {
     background-color: #fff;
     color:#444;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0 !important;
 }
 
 #about-page #section5,#section7,#section7 a {
@@ -56,9 +88,27 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #about-page #section6 {
-    background-color: #168ccc;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px !important;
+    background-color: #000;
     color:#ddd;
 }
+
+@media (max-width: 465px) {
+    #about-page #section6 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 355px) {
+    #about-page #section6 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
 
 #about-page #section6 a {
     color:#ffffff;
