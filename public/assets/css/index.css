@@ -1,4 +1,6 @@
 body {
- background-color: #e5e5ef;
  overflow-x: hidden;
+ height:100%;
+ background:center no-repeat fixed url('/assets/img/about/bg_suburb.jpg');
+ background-size: cover;
 }
