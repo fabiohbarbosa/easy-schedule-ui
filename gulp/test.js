@@ -12,7 +12,7 @@ gulp.task('inject-karma', function () {
 
     // Inject SPEC files
     function injectSpecFiles(i, length, extracted) {
-        if (i + 1 == length) {
+        if (i + 1 === length) {
             extracted = extracted + ',\n            ' + config.testSources.specFiles;
         }
         return extracted;
