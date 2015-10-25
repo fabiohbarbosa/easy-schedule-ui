@@ -1,4 +1,18 @@
 {
+{
+  "ignore": [
+    "**/node_modules/**",
+    "**/**-min-**",
+    "**/**-min.**",
+    "**/**.min.**",
+    "public/bower_components/**"
+  ],
+  "test": [
+    "**/test/**",
+    "**/tests/**",
+    "**/spec/**",
+    "**/specs/**"
+  ],
   "dependencies": {
     "unused-ignores": ['bower']
   }
