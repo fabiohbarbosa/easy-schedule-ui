@@ -4,6 +4,7 @@
 [![bitHound Dependencies](https://www.bithound.io/github/fabiohbarbosa/easy-schedule-ui/badges/dependencies.svg)](https://www.bithound.io/github/fabiohbarbosa/easy-schedule-ui/master/dependencies/npm)
 [![bitHound Dev Dependencies](https://www.bithound.io/github/fabiohbarbosa/easy-schedule-ui/badges/devDependencies.svg)](https://www.bithound.io/github/fabiohbarbosa/easy-schedule-ui/master/dependencies/npm)
 [![Code Climate](https://codeclimate.com/github/fabiohbarbosa/easy-schedule-ui/badges/gpa.svg)](https://codeclimate.com/github/fabiohbarbosa/easy-schedule-ui)
+[![Test Coverage](https://codeclimate.com/github/fabiohbarbosa/easy-schedule-ui/badges/coverage.svg)](https://codeclimate.com/github/fabiohbarbosa/easy-schedule-ui/coverage)
 [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/fabiohbarbosa/easy-schedule-ui/blob/master/LICENSE)
 
 
