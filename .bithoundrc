@@ -1,5 +1,4 @@
 {
-{
   "ignore": [
     "**/node_modules/**",
     "**/**-min-**",
@@ -14,6 +13,8 @@
     "**/specs/**"
   ],
   "dependencies": {
-    "unused-ignores": ['bower']
+    "unused-ignores": [
+      "bower"
+    ]
   }
 }

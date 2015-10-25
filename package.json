@@ -14,7 +14,7 @@
     "wrench": "^1.5.8"
   },
   "devDependencies": {
-    "browser-sync": "^2.7.6",
+    "browser-sync": "^2.9.11",
     "gulp-angular-filesort": "^1.1.1",
     "gulp-concat": "^2.5.2",
     "gulp-inject": "^3.0.0",
