@@ -12,7 +12,7 @@
     border-color:transparent;
 }
 
-a.list-group-item.active,[class*='-info'] {
+a.list-group-item.active {
     background-color: #1d9d74;
     border-color: #1d9d74;
     color:#fff;
@@ -121,7 +121,13 @@ a.list-group-item.active,[class*='-info'] {
     padding-right: 0;
 }
 
+#logo-heroku {
+    opacity: 0.8;
+    width: 50%;
+    height: 50%;
+}
+
 #logo-heroku:hover,
 #logo-heroku:focus {
-    opacity: 0.6;
+    opacity: 0.4;
 }
