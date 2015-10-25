@@ -1,6 +1,6 @@
 {
   "name": "easy-scheduler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "start": "./node_modules/gulp/bin/gulp.js environment && node server.js",
     "postinstall": "./node_modules/bower/bin/bower install --production",
