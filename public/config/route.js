@@ -10,10 +10,10 @@
                     main: {templateUrl: '/app/about/about.html'}
                 }
             })
-            .state('scheduler', {
-                url: '/scheduler',
+            .state('events', {
+                url: '/events',
                 views: {
-                    main: {templateUrl: '/app/scheduler/scheduler.html'}
+                    main: {templateUrl: '/app/events/events.html'}
                 }
             })
             .state('about', {

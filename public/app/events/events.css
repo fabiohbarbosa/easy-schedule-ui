@@ -1,0 +1,15 @@
+#events-page {
+}
+
+#events-page section {
+    padding-top:70px;
+    padding-bottom:50px;
+    min-height:calc(100% - 1px);
+}
+
+
+#events-page #section1 {
+    color:#fff;
+    padding-left: 0;
+    padding-right: 0;
+}
