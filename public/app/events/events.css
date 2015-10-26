@@ -1,15 +1,58 @@
 #events-page {
+    padding-top:80px;
+    color: #424242 !important;
 }
 
 #events-page section {
-    padding-top:70px;
-    padding-bottom:50px;
-    min-height:calc(100% - 1px);
+    padding-bottom:20px;
+}
+
+#events-page .panel {
+    box-shadow: 3px 3px 5px rgba(50, 50, 50, .5);
+}
+
+#events-page .panel-green {
+    border: none;
+}
+#events-page .panel-green > .panel-heading {
+    color: #fff;
+    background-color: #1d9d74;
+    border-color: #1d9d74;
+}
+
+#events-page .painel-sub-headling {
+    font-size: 75%;
+    margin: 0 15px 10px 15px;
+    padding: 0 0 5px 10px;
+    border-bottom:1px solid #CCC;
+    color: #8c8c8c;
+}
+
+#events-page .panel-green > .panel-body {
+    background-color: #fafafa;
 }
 
 
-#events-page #section1 {
+#events-page .input-inline {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+
+
+
+
+select option {
+    margin:40px;
+    background: rgba(0,0,0,0.3);
     color:#fff;
-    padding-left: 0;
-    padding-right: 0;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+select option[val="1"]{
+    background: rgba(100,100,100,0.3);
+}
+
+select option[val="2"]{
+    background: rgba(200,200,200,0.3);
 }
