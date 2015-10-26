@@ -1,3 +1,7 @@
+.body-about {
+    background:center no-repeat fixed url('/assets/img/about/bg_suburb.jpg');
+}
+
 .v-center {
     font-size:70px;
 }
@@ -65,7 +69,6 @@ a.list-group-item.active {
         margin: 20px;
     }
 }
-
 
 #about-page #section2 {
     background-color: #e5e5ef;
