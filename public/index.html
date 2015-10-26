@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" ng-app="easy-scheduler-ui">
+<html class="no-js" ng-app="easy-scheduler-ui" ng-controller="IndexCtrl as vm">
 <head>
     <meta charset="utf-8">
     <title>Easy Scheduler</title>
@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<body ng-class="{'body-about': vm.isAboutTemplate()}">
     <!--[if lt IE 9]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
         your browser</a> to improve your experience.</p>
@@ -55,6 +55,7 @@
     <script src="config/config.js"></script>
     <script src="config/route.js"></script>
     <script src="app/about/about.controller.js"></script>
+    <script src="app/index/index.controller.js"></script>
     <script src="components/modules/modules.js"></script>
     <!-- endinject -->
     <main>
