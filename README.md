@@ -17,4 +17,7 @@ easy-scheduler-ui
 gulp server
 ```
 
+## Backend project
+- [easy-schedule](https://github.com/rafaeljesus/easy-schedule/)
+
 **Under construction..**
