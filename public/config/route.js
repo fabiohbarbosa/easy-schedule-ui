@@ -7,7 +7,8 @@
                 url: '',
                 views: {
                     main: {templateUrl: '/app/about/about.html'}
-                }
+                },
+                isAboutTemplate: true
             })
             .state('events', {
                 url: '/events',
